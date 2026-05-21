@@ -1,0 +1,10 @@
+{
+  "name": "BOUH Terrain | Abu Aziza System",
+  "short_name": "BOUH",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05070A",
+  "theme_color": "#05070A",
+  "orientation": "portrait",
+  "icons": []
+}

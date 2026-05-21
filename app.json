@@ -1,0 +1,72 @@
+{
+  "expo": {
+    "name": "BOUH GOLD PRO ULTRA",
+    "slug": "bouh-terrain-abuaziza",
+    "version": "12.5.0",
+    "orientation": "portrait",
+    "scheme": "bouhgold",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abuaziza.bouhgoldpro",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "BOUH uses GPS for field navigation to saved exploration targets.",
+        "NSMotionUsageDescription": "BOUH uses sensors for geological compass strike and dip."
+      }
+    },
+    "android": {
+      "package": "com.abuaziza.bouhgoldpro",
+      "versionCode": 125,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "FOREGROUND_SERVICE"
+      ],
+      "adaptiveIcon": {
+        "backgroundColor": "#05070A"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "name": "BOUH Terrain | Abu Aziza System",
+      "shortName": "BOUH",
+      "themeColor": "#05070A",
+      "backgroundColor": "#05070A",
+      "display": "standalone",
+      "startUrl": "/"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-sqlite",
+      "expo-location",
+      "expo-sensors",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 26,
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "kotlinVersion": "1.9.24",
+            "enableProguardInReleaseBuilds": true
+          },
+          "ios": {
+            "deploymentTarget": "15.1"
+          }
+        }
+      ],
+      "./plugins/withBouhNative"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      },
+      "owner": "Ahmed Abu Aziza",
+      "system": "BOUH Terrain | Abu Aziza System"
+    }
+  }
+}

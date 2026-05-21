@@ -1,0 +1,196 @@
+[
+  {
+    "id": "CSL-01",
+    "year": 2025,
+    "citation": "Elrasheed et al. 2025/2026",
+    "area": "Ariab",
+    "model": "VMS_Gossan_Gold",
+    "features": [
+      "PRISMA",
+      "RandomForest",
+      "Gossan",
+      "FeOx",
+      "ClayOH",
+      "SilicaBarite"
+    ],
+    "weight": 0.9
+  },
+  {
+    "id": "CSL-02",
+    "year": 2025,
+    "citation": "Yousif et al. 2025",
+    "area": "Haya / Halak",
+    "model": "Surface_QuartzVein_Gold",
+    "features": [
+      "QuartzVein",
+      "SericiteSchist",
+      "ShearZone",
+      "IronStaining"
+    ],
+    "weight": 0.86
+  },
+  {
+    "id": "CSL-03",
+    "year": 2026,
+    "citation": "Yousif et al. 2026",
+    "area": "Arkawit",
+    "model": "Shear_QuartzVein_Isotope",
+    "features": [
+      "Structure",
+      "Geochemistry",
+      "Isotopes",
+      "QuartzVein"
+    ],
+    "weight": 0.83
+  },
+  {
+    "id": "CSL-04",
+    "year": 2025,
+    "citation": "Mina et al. 2025",
+    "area": "Red Sea Hills",
+    "model": "VMS_Hydrothermal_Alteration",
+    "features": [
+      "FeOx",
+      "HydroxylClay",
+      "SilicaQuartz",
+      "Lineaments",
+      "NE_SW"
+    ],
+    "weight": 0.88
+  },
+  {
+    "id": "CSL-05",
+    "year": 2024,
+    "citation": "Mohamed Taha et al. 2024",
+    "area": "Hamissana",
+    "model": "DeepForest_MPM",
+    "features": [
+      "ASTER",
+      "Sentinel2",
+      "Landsat8",
+      "Lineaments",
+      "Geology"
+    ],
+    "weight": 0.78
+  },
+  {
+    "id": "CSL-06",
+    "year": 2026,
+    "citation": "Taha et al. 2025/2026",
+    "area": "Abidiya / Sudan",
+    "model": "AI_MPM_Benchmark",
+    "features": [
+      "DeepForest",
+      "DNN",
+      "RemoteSensing",
+      "Geology"
+    ],
+    "weight": 0.74
+  },
+  {
+    "id": "CSL-07",
+    "year": 2024,
+    "citation": "Ojani et al. 2024",
+    "area": "Red Sea Hills",
+    "model": "PRISMA_FeOx_Gossan",
+    "features": [
+      "Hematite",
+      "Goethite",
+      "Jarosite",
+      "IronAlteration"
+    ],
+    "weight": 0.8
+  },
+  {
+    "id": "CSL-08",
+    "year": 2024,
+    "citation": "Mohammed et al. 2024",
+    "area": "NE Tohamiyam",
+    "model": "ASTER_Alteration",
+    "features": [
+      "AlOH",
+      "Argillic",
+      "Kaolinite",
+      "CarbonateMgOH"
+    ],
+    "weight": 0.72
+  },
+  {
+    "id": "CSL-09",
+    "year": 2017,
+    "citation": "Johnson & Zoheir 2017",
+    "area": "Nubian Shield",
+    "model": "VMS_Orogenic_Framework",
+    "features": [
+      "VMS",
+      "OrogenicGold",
+      "OxideGold"
+    ],
+    "weight": 0.7
+  },
+  {
+    "id": "CSL-10",
+    "year": 2017,
+    "citation": "Bakheit & Matheis",
+    "area": "Ariab Belt",
+    "model": "Ariab_VMS_Gossan",
+    "features": [
+      "SilicaBarite",
+      "Gossan",
+      "Hydrothermal"
+    ],
+    "weight": 0.77
+  },
+  {
+    "id": "CSL-11",
+    "year": 2016,
+    "citation": "Barrie et al. 2016",
+    "area": "Nubian Shield",
+    "model": "VMS_Oxide_Gold",
+    "features": [
+      "OxideGold",
+      "Gossan",
+      "VMS"
+    ],
+    "weight": 0.76
+  },
+  {
+    "id": "CSL-12",
+    "year": 2021,
+    "citation": "Rao et al. 2020/2021",
+    "area": "Wadi Onib",
+    "model": "EarthObservation_GoldAlteration",
+    "features": [
+      "Wadi",
+      "HydrothermalAlteration",
+      "Structure"
+    ],
+    "weight": 0.73
+  },
+  {
+    "id": "CSL-13",
+    "year": 1989,
+    "citation": "Stern et al. 1989",
+    "area": "Hamisana",
+    "model": "ShearZone_TectonicFramework",
+    "features": [
+      "DeepShear",
+      "Suture",
+      "TectonicCorridor"
+    ],
+    "weight": 0.65
+  },
+  {
+    "id": "CSL-14",
+    "year": 2016,
+    "citation": "Bierlein et al. 2016",
+    "area": "Jebel Ohier",
+    "model": "Porphyry_Cu_Au",
+    "features": [
+      "IntrusiveContact",
+      "OxideZone",
+      "AlterationHalo"
+    ],
+    "weight": 0.69
+  }
+]

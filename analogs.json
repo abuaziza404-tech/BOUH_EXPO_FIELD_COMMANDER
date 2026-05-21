@@ -1,0 +1,98 @@
+[
+  {
+    "id": "A1",
+    "name": "GPZ Hand-Pit Dark Regolith Signature",
+    "lat": 19.78895,
+    "lon": 36.551106,
+    "class": "GPZ_REGOLITH",
+    "magRisk": 0.82
+  },
+  {
+    "id": "A1_CLOSE",
+    "name": "A1 close-up",
+    "lat": 19.793522,
+    "lon": 36.556198,
+    "class": "GPZ_REGOLITH",
+    "magRisk": 0.82
+  },
+  {
+    "id": "A2",
+    "name": "GPZ Regolith–Loader Expansion Analog",
+    "lat": 19.834457,
+    "lon": 36.478347,
+    "class": "LOADER_EXPANSION",
+    "magRisk": 0.76
+  },
+  {
+    "id": "A3",
+    "name": "Dark Knoll/Pediment Hand-Pit Analog",
+    "lat": 20.492444,
+    "lon": 36.348738,
+    "class": "DARK_KNOLL",
+    "magRisk": 0.74
+  },
+  {
+    "id": "A4",
+    "name": "Hybrid Dark Regolith–Wadi Corridor Expansion",
+    "lat": 20.49444,
+    "lon": 36.360965,
+    "class": "WADI_CORRIDOR",
+    "magRisk": 0.73
+  },
+  {
+    "id": "A5",
+    "name": "Dark Pediment/Hill-Foot Strip Expansion",
+    "lat": 19.547212,
+    "lon": 36.280184,
+    "class": "HILL_FOOT_PEDIMENT",
+    "magRisk": 0.79
+  },
+  {
+    "id": "A5_CORE1",
+    "name": "A5 core 1",
+    "lat": 19.540364,
+    "lon": 36.240657,
+    "class": "HILL_FOOT_PEDIMENT",
+    "magRisk": 0.78
+  },
+  {
+    "id": "A5_CORE2",
+    "name": "A5 core 2",
+    "lat": 19.538646,
+    "lon": 36.241047,
+    "class": "HILL_FOOT_PEDIMENT",
+    "magRisk": 0.78
+  },
+  {
+    "id": "A6",
+    "name": "Mountain-Feeder/Wadi-Interface Analog",
+    "lat": 21.07571,
+    "lon": 36.34182,
+    "class": "MOUNTAIN_FEEDER",
+    "magRisk": 0.71
+  },
+  {
+    "id": "A6_P1",
+    "name": "A6 point 1",
+    "lat": 21.092087,
+    "lon": 36.336265,
+    "class": "MOUNTAIN_FEEDER",
+    "magRisk": 0.71
+  },
+  {
+    "id": "A6_P2",
+    "name": "A6 point 2",
+    "lat": 21.093813,
+    "lon": 36.344444,
+    "class": "MOUNTAIN_FEEDER",
+    "magRisk": 0.71
+  },
+  {
+    "id": "A6_P3",
+    "name": "A6 point 3",
+    "lat": 21.089764,
+    "lon": 36.329958,
+    "class": "MOUNTAIN_FEEDER",
+    "magRisk": 0.71
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "platforms": ["ios", "android"],
+  "android": {
+    "modules": ["com.abuaziza.bouh.BouhNativeModule"]
+  },
+  "ios": {
+    "modules": ["BouhNativeModule"]
+  }
+}
