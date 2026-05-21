@@ -1,8 +1,22 @@
 {
+  "cli": {
+    "version": ">= 13.0.0"
+  },
   "build": {
-    "preview": {
+    "apk": {
       "android": {
         "buildType": "apk"
+      },
+      "env": {
+        "EXPO_NO_TELEMETRY": "1"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      },
+      "env": {
+        "EXPO_NO_TELEMETRY": "1"
       }
     }
   }

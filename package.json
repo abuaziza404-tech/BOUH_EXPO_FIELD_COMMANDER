@@ -1,0 +1,30 @@
+{
+  "name": "bouh-gold-pro-ultra",
+  "version": "12.5.1",
+  "private": true,
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "web": "expo start --web",
+    "eas-build-pre-install": "node -v && npm -v"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "1.23.1",
+    "expo": "~52.0.47",
+    "expo-asset": "~11.0.5",
+    "expo-file-system": "~18.0.12",
+    "expo-location": "~18.0.10",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-maps": "1.18.0",
+    "react-native-svg": "15.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
